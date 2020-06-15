@@ -7,7 +7,7 @@ Official website : https://posativ.org/isso/
         image: mihokookayami/isso
         container_name: isso
         volumes:
-          - /my/config/path:/conf/isso.conf:ro
+          - /my/conf/path/isso.conf:/conf/isso.conf:ro
           - /my/data/path:/data
         restart: unless-stopped
   
